@@ -28,6 +28,16 @@ return k;
 }
 return null;
 }
+public List<Koleksi> cariJudul(String kataKunci) {
+    List<Koleksi> hasil = new ArrayList<>();
+    String kunci = kataKunci.toLowerCase();
+    for (Koleksi k : daftarKoleksi) {
+        if (k.getJudul().toLowerCase().contains(kunci)) {
+            hasil.add(k);
+        }
+    }
+    return hasil;
+}
 /** Meminjamkan koleksi kepada anggota. Mengembalikan false jika gagal. */
 public boolean pinjam(String kode, Anggota anggota) {
 Koleksi koleksi = cari(kode);
