@@ -1,0 +1,18 @@
+1. Tambahkan baris Koleksi x = new Koleksi("X01", "Uji", 2026); di method main. Apa pesan error
+dari kompiler dan mengapa?
+2. Pada kelas Buku, ubah nama method hitungDenda menjadi hitungdenda. Apa yang terjadi jika anotasi
+@Override ada, dan jika dihapus?
+3. Tambahkan new Buku("B009", "", 2020, "Anonim"). Apa yang terjadi saat program dijalankan?
+4. Ubah private StatusKoleksi status menjadi public, lalu ubah status B002 langsung dari main
+menjadi TERSEDIA saat masih dipinjam. Aturan apa yang dilanggar?
+
+Jawab :
+
+1.Dikompiler muncul pesan "Koleksi is abstract; cannot be instantiated" penyebabnya karena koleksi itu abstract,object hanya dibuat dari class konkret(buku dan majalah)
+
+2.dengan override tidak dihapus hasil errornya "hitungdenda(int) in buku does not override
+or implement a method from a supertype" jika override dihapus pesan errornya menjadi "buku is not abstract and does not override abstract method hitungDenda(int) in BisaDipinjam"
+
+3.error saat dijalankan "Exception in thread "main" java.lang.IllegalArgumentException: Judul tidak boleh kosong"
+
+4.Aturan yang dilanggar adalah enkapsulasi dan data jadi tidak kosisten 
