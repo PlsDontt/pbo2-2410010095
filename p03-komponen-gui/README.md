@@ -4,20 +4,20 @@
 **NPM:** 2410010095
 
 ### Tema Terang
-![Tema terang](Screenshots/Tiket-Terang.png)
+![Tema terang](ScreenShots/Tiket-Terang.png)
 
 ### Tema Gelap
-![Tema gelap](Screenshots/Tiket-Gelap.png)
+![Tema gelap](ScreenShots/Tiket-Gelap.png)
 
 ### Tab Design dengan Navigator
-![Tab Design dan Navigator](Screenshots/Tiket-Navigator.png)
+![Tab Design dan Navigator](ScreenShots/Tiket-Navigator.png)
 
 ## Pertanyaan Refleksi
 
 **1. Apa perbedaan top-level container, intermediate container, dan atomic component?**
-Top-level container adalah jendela utama yang punya bingkai dan judul. Contoh: JFrame.
-Intermediate container adalah wadah untuk mengelompokkan komponen di dalam jendela. Contoh: JPanel.
-Atomic component adalah komponen yang berinteraksi langsung dengan pengguna. Contoh: JButton.
+-Top-level container adalah jendela utama yang punya bingkai dan judul. Contoh: JFrame.
+-Intermediate container adalah wadah untuk mengelompokkan komponen di dalam jendela. Contoh: JPanel.
+-Atomic component adalah komponen yang berinteraksi langsung dengan pengguna. Contoh: JButton.
 
 **2. Mengapa kedua JRadioButton perlu diberi properti buttonGroup yang sama?**
 ButtonGroup membuat hanya satu radio button dalam grup yang bisa terpilih. Saat satu dipilih, yang lain otomatis terlepas. Tanpa grup yang sama, setiap radio button berdiri sendiri sehingga keduanya bisa terpilih bersamaan.
