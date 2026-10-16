@@ -164,6 +164,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         jenisPanel.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 8, 0));
 
         jenisAnggotaGroup.add(mahasiswaRadio);
+        mahasiswaRadio.setSelected(true);
         mahasiswaRadio.setText("Mahasiswa");
         jenisPanel.add(mahasiswaRadio);
 
@@ -189,7 +190,7 @@ public class FormAnggotaPerpustakaan extends javax.swing.JFrame {
         gridBagConstraints.gridy = 5;
         gridBagConstraints.gridwidth = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
-        gridBagConstraints.insets = new java.awt.Insets(16, 0, 0, 0);
+        gridBagConstraints.insets = new java.awt.Insets(16, 0, 6, 0);
         formPanel.add(kontakLabel, gridBagConstraints);
 
         emailLabel.setLabelFor(emailField);
