@@ -22,6 +22,7 @@ public class UjiValidator {
     }
 
     public static void main(String[] args) {
+        cek("Nama berisi angka", Validator.nama("Siti123"), false);
         cek("NPM kosong", Validator.npm(""), false);
         cek("NPM 5 digit", Validator.npm("12345"), false);
         cek("NPM berisi huruf", Validator.npm("24100101ab"), false);
